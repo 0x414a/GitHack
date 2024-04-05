@@ -2,10 +2,13 @@
 go build GitHack.go
 ```
 
-
-
 ```
 Usage: GitHack -u <URL>
+  -p string
+        Proxy URL (http://127.0.0.1:7890 or socks5://127.0.0.1:7890)
+  -u string
+        The target URL to scan
+  -h help
 ```
 
 ```
@@ -20,4 +23,4 @@ Usage: GitHack -u <URL>
 
 
 # Thanks
-Due to some large time span, I have directly copied the Utils and git files from https://github.com/Yesterday17/gitfetch to my profile.
+Due to large time span, copy git, directly from the https://github.com/Yesterday17/gitfetch in Utils added the agent
