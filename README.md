@@ -17,9 +17,14 @@ Usage: GitHack -u <URL>
 [+] index.html
 [OK] 50x.html
 [OK] index.html
+[OK] 17133932530831.txt
 [End]
 
 ```
+
+The recovered files are in Recovered Files/恢复的文件在recovered_files中
+
+
 
 
 # Thanks
