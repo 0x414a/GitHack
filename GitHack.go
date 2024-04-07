@@ -191,6 +191,6 @@ func recoverObject(fileName, hash, baseURL string) error {
 		fmt.Println(fmt.Errorf("writing object %s failed: %w", hash, err))
 		return nil
 	}
-	fmt.Println(`[OK] ` + fileName)
+	fmt.Println(`[OK] ` + fileName+`:`+outputPath)
 	return nil
 }
